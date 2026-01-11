@@ -1,0 +1,41 @@
+<section id="blogs" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Blog</h2>
+            </div>
+        </div>
+        <div class="row equal-height">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body blogs-block" style="background-image: url({{ page.blog1.image }});">
+                    </div>
+                    <div class="panel-footer" style="height: 150px;">
+                        <a href="{{ page.blog1.link }}" class="btn btn-block" target="_blank" style="white-space: pre-line; text-align: left;"><h4 class="text-black">{{ page.blog1.title }}</h4></a>
+                        <p class="blog-author">by {{ page.blog1.author }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body blogs-block" style="background-image: url({{ page.blog2.image }});">
+                    </div>
+                    <div class="panel-footer bg-danger text-white" style="height: 150px;">
+                        <a href="{{ page.blog2.link }}" class="btn btn-block text-white" target="_blank" style="white-space: pre-line; text-align: left;"><h4>{{ page.blog2.title }}</h4></a>
+                        <p class="blog-author">by {{ page.blog2.author }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-body blogs-block" style="background-image: url({{ page.blog3.image }});">
+                    </div>
+                    <div class="panel-footer" style="height: 150px;">
+                        <a href="{{ page.blog3.link }}" class="btn btn-block" target="_blank" style="white-space: pre-line; text-align: left;"><h4 class="text-black">{{ page.blog3.title }}</h4></a>
+                        <p class="blog-author">by {{ page.blog3.author }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

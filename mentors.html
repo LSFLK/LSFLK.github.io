@@ -1,0 +1,55 @@
+---
+title: Meet Our Mentors | LSF
+layout: single-page
+##---------------
+## Mentors
+##---------------
+mentors:
+- name: Nuwan Senaratna
+  pic: nuwans.png
+  position: Founder & CEO of ColomboLabs Inc.
+  position2: Ex-Facebook UK and US.
+  linkedin: https://www.linkedin.com/in/nuwansenaratna
+
+- name: Uthaiyashankar (Shankar) Selvaratnam
+  pic: shankar.png
+  position: Senior Vice-President Engineering, WSO2
+  linkedin: https://www.linkedin.com/in/uthaiyashankar/
+
+- name: Sumedha Rubasinghe
+  pic: sumedhar.jpg
+  position: Founder & CEO, Entgra, Ex-WSO2
+  linkedin: https://www.linkedin.com/in/sumedharubasinghe/
+
+---
+<section class="top-banner" style="padding-top: 110px; padding-bottom: 0;">
+    <div class="container-fluid" style="padding: 0;">
+        <div class="row bg-danger" style="height: 40vh;">
+            <div class="col-md-5 vcenter text-white">
+                <h1>Meet Our Mentors</h1>
+            </div>
+            <div class="col-md-7 mentors-banner">
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="mentors">
+</section>
+<section id="mentors-list" style="padding-top: 150px;">
+    <div class="container">
+        <div class="row equal-height">
+        {% for member in page.mentors %}
+          <div class="col-sm-4">
+              <div class="team-member" style="height: 90%;">
+                  <img src="{{ site.baseurl }}/img/people/{{ member.pic }}" class="img-responsive img-circle"  style="width: 200px;"alt="">
+                  <h4>{{ member.name }}</h4>
+                  <p class="text-muted" style="margin-top: 10px; margin-bottom: 0;">{{ member.position }}</p>
+                  <p class="text-muted">{{ member.position2 }}</p>
+              </div>
+              <p style="position: absolute;bottom: 0;left: 50%; font-size: x-large;"><a href="{{ member.linkedin }}" target="_blank" > <i class="fa fa-linkedin-square text-danger" aria-hidden="true"></i> </a></p>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+</section>
