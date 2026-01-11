@@ -1,0 +1,61 @@
+2025aravinda:
+  name: H.W.K.Aravinda
+  position: Software Engineering Fellow
+  start_date: 2025-07-01
+  end_date: (To Date)
+  moreinfo: https://www.linkedin.com/in/hwk-aravinda/
+  projects: [Silver]
+  image: assets/images/people/Aravinda.jpg
+  shortbio: >
+    Aravinda joined LSF from Department of Computer Science and Engineering at University of Moratuwa to become part of the Silver project. 
+    Prior to LSF he did software engineering internship at PromiseQ GmbH, was a teaching assistant coordinator for Programming Fundamentals and Theory of Computing modules at University of Moratuwa.
+
+2025maneesha:
+  name: Maneesha Walisundera
+  position: Software Engineering Fellow
+  start_date: 2025-05-01
+  end_date: (To Date)
+  moreinfo: https://linkedin.com/in/maneesha14w
+  projects: [Silver]
+  image: assets/images/people/Maneesha_Walisundera.jpg
+  shortbio: >
+    Maneesha joined LSF to become part of the Silver project after working as a freelance cross-platform mobile developer.
+
+2025mohammed:
+  name: Mohamed Mushraf
+  position: Software Engineering Fellow
+  start_date: 2025-07-28
+  end_date: (To Date)
+  moreinfo: https://www.linkedin.com/in/mushrafmim
+  projects: [OpenDIF]
+  image: assets/images/people/Mohamed_Mushraf.jpg
+  shortbio:
+    Mushraf joined LSF from University of Moratuwa to become part of the OpenDIF project.
+    Prior to LSF, he worked as a software development engineer intern at The Software Practice (Pte) Ltd.
+
+2025regina:
+  name: Regina Xu
+  position: Software Engineering Fellow
+  start_date: 2025-07-21
+  end_date: (To Date)
+  moreinfo: https://www.linkedin.com/in/reginaxu/
+  projects: [OpenDIF]
+  image: assets/images/people/Regina_Xu.jpg
+  shortbio: >
+    Regina joined LSF from consulting in the US to become part of the OpenDIF project. 
+    Prior to LSF she built enterprise applications for businesses in healthcare, finance, and retail.
+
+2025thanikan:
+  name: Thanikan Sivatheepan
+  position: Software Engineering Fellow
+  start_date: 2025-07-28
+  end_date: (To Date)
+  moreinfo: https://www.linkedin.com/in/sthanikan2000/
+  projects: [OpenDIF]
+  image: assets/images/people/Thanikan_Sivatheepan.jpg
+  shortbio:
+    Thanikan joined LSF from the Department of Computer Science and Engineering, University of Moratuwa,
+    to become part of the OpenDIF project.
+    Prior to LSF, he worked as a Software Engineering intern at Coachello, and served as a 
+    teaching assistant for the Programming Fundamentals and Data Structures & Algorithms modules 
+    at the Department of Computer Science and Engineering, University of Moratuwa.

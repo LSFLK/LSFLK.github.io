@@ -1,26 +1,27 @@
-url: https://lsflk.github.io/
-baseurl: ""
-
-# Site settings
 title: Lanka Software Foundation
+author: Lanka Software Foundation
 email: contact@opensource.lk
-# Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-description: "Global Free and Open Source (FOSS) Research & Development hub."
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/LSF_LK
-  - title: linkedin
-    url: https://www.linkedin.com/company/lsflk/
-  - title: facebook
-    url: https://www.facebook.com/Lanka-Software-Foundation/
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: No 7, Charles Place,
-  - line: Colombo 07
+description: >- # this means to ignore newlines until "baseurl:"
+  Lanka Software Foundation is a non-profit organization that promotes
+  the development of Free and Open Source Software (FOSS) in Sri Lanka by
+  giving Sri Lankan developers the environement, facilities and support
+  they need to create and maintain FOSS projects.
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username:  LSFLK
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+theme: minima
+
+# Force custom navigation
+header_pages:
+  - about/index.md
+  - team/index.md
+  - projects.md
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/

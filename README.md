@@ -1,30 +1,11 @@
-Agency Jekyll theme
-====================
+This is the LSF Website.
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+If you see any bugs, please send a PR. 
 
-# How to use
+If you can make the site look nicer but <em>without messing up the strict content vs. style separation</em>, please send a PR.
 
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+To run locally do the following:
+<pre>
+1. git clone the repo
+2. jekyll serve
+</pre>
