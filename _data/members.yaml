@@ -1,0 +1,112 @@
+indrajith:
+  name: Dr. Indrajith Coomaraswamy
+  moreinfo: https://en.wikipedia.org/wiki/Indrajit_Coomaraswamy
+  shortbio:
+    Indrajit Coomaraswamy is a Sri Lankan economist who served as the 14th Governor of the
+    Central Bank of Sri Lanka from 2016 to 2019. He has an extensive background in economics and
+    public service, including a long career at the Central Bank of Sri Lanka and the Commonwealth
+    Secretariat. In addition to his professional achievements, he is also a former sportsman who
+    captained the Sri Lankan national rugby team and played first-class cricket.
+  image: assets/images/people/Indrajit_Coomaraswamy.png
+
+kamal:
+  name: Dr. Kamal Weeraperuma
+  moreinfo: 
+  shortbio:
+    Kamal Weerapperuma is a highly accomplished professional with a background in
+    engineering and a wide range of senior leadership roles. After completing his B.Sc. 
+    in Sri Lanka and M.Sc. and Ph.D. in the UK, he served as CEO and Director for 
+    major companies like Kelani Cables and Haycarb. 
+  image: assets/images/people/Kamal_Weerapperuma.png
+
+ralph:
+  name: Ralph de Lanerole
+  moreinfo: 
+  shortbio:
+    Ralph de Lanerolle is a highly experienced professional with over 50 years of work in
+    both the public and private sectors, specializing in project finance and management. 
+    A Chartered Engineer, he holds degrees from the University of Ceylon and the University 
+    of Waterloo, Canada, and is a fellow of the Economic Development Institute of the 
+    World Bank. He currently serves on the Board of Directors for ORC PLC and its group
+    companies, having also held senior management and consultancy roles across various 
+    industries throughout his career.
+  image: assets/images/people/Ralph_Lanerole.jpeg
+
+saman:
+  name: Prof. Saman Amarasinghe
+  moreinfo: https://www.linkedin.com/in/saman/
+  shortbio:
+    Saman Amarasinghe is a renowned computer scientist and entrepreneur at MIT, specializing 
+    in programming languages and compilers that enhance application performance. He leads the 
+    Commit compiler group, which has developed multiple high-performance domain-specific 
+    languages like Halide and TACO, and he pioneered the use of machine learning for 
+    compiler optimizations. As a successful entrepreneur, he co-founded Lanka Internet 
+    Services, the first internet service provider in Sri Lanka, and Determina, Inc., 
+    ased on his computer security research.
+  image: assets/images/people/Saman_Amarasinghe.jpeg
+
+paul:
+  name: Mr. Paul Ratnayeke
+  moreinfo: https://www.linkedin.com/in/paul-ratnayeke-36616295
+  shortbio:
+    Paul Ratnayeke is a prominent Sri Lankan Attorney-at-Law and Solicitor who founded 
+    the legal firm Paul Ratnayeke Associates in 1987. He is a respected figure in 
+    corporate and commercial law, with extensive experience as a director and chairman 
+    on the boards of several public and private companies. As the senior partner of his firm, 
+    he leads a practice that specializes in various fields, including litigation, finance, 
+    and intellectual property.
+  image: assets/images/people/Paul_Ratnayeke.jpeg
+
+kumar:
+  name: Prof. Kumar Wickramasinghe
+  moreinfo: https://en.wikipedia.org/wiki/Kumar_Wickramasinghe
+  shortbio:
+    Kumar Wickramasinghe is a distinguished electrical engineer and computer scientist, 
+    renowned for his contributions to scanning probe microscopy, nanotechnology, 
+    and nanobiotechnology. He currently holds a prestigious chair at the University of 
+    California, Irvine, and was elected as a Fellow of the Royal Society in 2019. 
+    He is particularly recognized for his work on scanning thermal microscopy.
+  image: assets/images/people/Kumar_Wickramasinghe.jpg
+
+yohan:
+  name: Dr. Yohan Weerasuriya
+  moreinfo: https://www.linkedin.com/in/yohan-weerasuriya-23b80813/
+  shortbio: Yohan Weerasuriya is the founder and owner of Back of Beyond Sri Lanka, an 
+    eco-tourism operation he launched in 2007 after leaving the corporate world. With a 
+    Ph.D. in Agronomy, he pursued his dream to create a sustainable business that contributes
+    to environmental conservation and community empowerment. A lifelong nature enthusiast, 
+    he is dedicated to preserving Sri Lanka's wilderness for future generations and has 
+    become a private investor and example for others in the field.
+  image: assets/images/people/Yohan_Weerasuriya.jpeg
+
+vks:
+  name: (Late) Prof. V.K. Samaranayake
+  moreinfo: https://en.wikipedia.org/wiki/V._K._Samaranayake
+  shortbio:
+    V.K. Samaranayake was a distinguished Sri Lankan computer scientist and academic known
+    for his pioneering contributions to the field of computer science in Sri Lanka. He has played a
+    significant role in the development of computer science education and research in the country.
+    Prof. Samaranayake has held various academic and administrative positions, contributing to the growth
+    of the technology sector in Sri Lanka.
+  image: assets/images/people/VK_Samaranayake.jpg
+
+jivaka:
+  name: Jivaka Weeratunge
+  moreinfo: 
+  shortbio: Jivaka is a seasoned financial specialist who was CEO of many companies
+    in Sri Lanka, has been on the boards of many more and is always looking to think out of the box
+    from first principles to create new things. Jivaka and Sanjiva met when Jivaka was 
+    leading an effort to build a stock market 
+    trading system in mid 90s when he hired Sanjiva (who was then a PhD student at Purdue) to 
+    train the team on Java. Jivaka and Sanjiva conceieved of the Lanka Software Foundation as a way
+    to create a brand for Sri Lankan software developers in the open source world.
+  image: assets/images/people/Jivaka_Weeratunge.webp
+
+sanjiva:
+  name: Dr. Sanjiva Weerawarana
+  moreinfo: https://www.linkedin.com/in/sanjivaweerawarana/
+  shortbio: Sanjiva is the co-founder of LSF, WSO2, the Lanka Data Foundation
+    and the Avinya Foundation. He is also a Member of the Apache Software Foundation, was a 
+    Board Member of the Open Source Initiative and is a Fellow of the National Academy of Sciences
+    of Sri Lanka.
+  image: assets/images/people/Sanjiva_Weerawarana.jpeg
