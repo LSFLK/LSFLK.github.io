@@ -5,7 +5,7 @@ start_date: 2025-08-01
 end_date:
 status: ACTIVE
 summary: A superapp framework to build a superapp for a community
-image: assets/images/projects/OpenSuperApp.jpg
+image: assets/images/projects/OpenSuperApp.png
 ---
 
 Start date: {{ page.start_date }}
