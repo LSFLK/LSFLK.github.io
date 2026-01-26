@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Leadership Team
 permalink: /team/leadership/
 ---
-
-# Leadership Team
 
 The LSF leadership team are the people who manage day to day operations of LSF. 
 

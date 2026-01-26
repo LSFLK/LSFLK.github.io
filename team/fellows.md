@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Our fellows
 permalink: /team/fellows/
 ---
-
-# Our fellows
 
 Code makes the world go around and our engineers are the ones who do the magic. Note that LSF offers short term fellowships for engineers and as such everyone has the same job title of Software Engineering Fellow.
 
