@@ -1,8 +1,8 @@
 ---
 layout: page
+title: Board of Directors
 permalink: /team/directors/
 ---
-# Board of Directors
 
 The Board of Directors are legally responsible for all aspects of the company.
 

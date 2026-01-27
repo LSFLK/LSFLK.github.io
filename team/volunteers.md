@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Our volunteers
 permalink: /team/volunteers/
 ---
-
-# Our volunteers
 
 Volunteers are key to making it possible for us to build large scale software with small teams. Thank you to those who make it possible to do this!
 
