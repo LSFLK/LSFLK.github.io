@@ -4,7 +4,7 @@ email: contact@opensource.lk
 description: >- # this means to ignore newlines until "baseurl:"
   Lanka Software Foundation is a non-profit organization that promotes
   the development of Free and Open Source Software (FOSS) in Sri Lanka by
-  giving Sri Lankan developers the environement, facilities and support
+  giving Sri Lankan developers the environment, facilities and support
   they need to create and maintain FOSS projects.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
