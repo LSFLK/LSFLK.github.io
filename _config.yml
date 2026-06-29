@@ -9,7 +9,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  LSFLK
+github_username: LSFLK
 
 # Build settings
 theme: minima
@@ -25,3 +25,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

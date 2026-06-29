@@ -1,0 +1,30 @@
+<header class="site-header" role="banner">
+  <div class="wrapper header-shell">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}" aria-label="{{ site.title | escape }} Home">
+      <img class="site-mark" src="{{ '/assets/images/LSF.jpg' | relative_url }}" alt="{{ site.title | escape }}">
+    </a>
+
+    {%- if page_paths -%}
+      <nav class="site-nav" aria-label="Primary">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label class="menu-toggle" for="nav-trigger">
+          <span class="menu-icon" aria-hidden="true"></span>
+          <span class="menu-label">Menu</span>
+        </label>
+
+        <div class="trigger">
+          {%- assign current_url = page.url | relative_url -%}
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            {%- assign page_url = my_page.url | relative_url -%}
+            <a class="page-link{% if page_url == current_url %} is-active{% endif %}" href="{{ page_url }}"{% if page_url == current_url %} aria-current="page"{% endif %}>{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </nav>
+    {%- endif -%}
+  </div>
+</header>

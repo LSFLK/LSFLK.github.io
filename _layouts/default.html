@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body class="site-shell{% if page.layout %} layout-{{ page.layout }}{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {% include navigation.html %}
+    <main id="main-content" class="page-content" aria-label="Content">
+      <div class="wrapper content-shell">
+        {{ content }}
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

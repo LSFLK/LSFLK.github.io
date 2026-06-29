@@ -4,7 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Jump to: <a href="#founding">The founding<a>, <a href="#phase1">Phase 1 (2003-13)</a>, <a href="#phase2">Phase 2 (2013-18)</a>, <a href="#phase3">Phase 3 (2019-24)</a>, <a href="#phase4">Modern era (2025-)</a>.
+<nav class="about-jump-links" aria-label="About page sections">
+  <p><strong>Jump to:</strong></p>
+  <ul>
+    <li><a href="#founding">The founding</a></li>
+    <li><a href="#phase1">Phase 1 (2003-13)</a></li>
+    <li><a href="#phase2">Phase 2 (2013-18)</a></li>
+    <li><a href="#phase3">Phase 3 (2019-24)</a></li>
+    <li><a href="#phase4">Modern era (2025-)</a></li>
+  </ul>
+</nav>
 
 ## The founding {#founding}
 
@@ -22,12 +31,12 @@ LSF is registered as a company limited by guarantee in 2003, which is the vehicl
 
 The members are / were:
 
-<table>
+<table class="about-members">
     {% for member in site.data.members %}
         {% assign person = member[1] %}
         <tr>
-            <td width="20%" style="vertical-align: top;">
-                <img src="{{ site.baseurl }}/{{ person.image }} " width="100%">
+            <td class="about-member-photo">
+                <img class="about-member-image" src="{{ site.baseurl }}/{{ person.image }} " alt="{{ person.name }}">
             </td>
             <td>
                 <p id="{{ member[0] }}">
@@ -81,4 +90,3 @@ India views this model as a third approach to digitalization. The first one is t
 With Sri Lanka's government again embarking on a strong DPI path, the focus of LSF for this phase will be to build open source technology and solutions that can help Sri Lanka (and other nations) establish strong digital public infrastructure.
 
 Our current DPI projects include Silver (a government-scale, secure, private email solution), OpenDIF (a platform for policy and consent-aware data sharing across data custodians, owners and consumers), and OpenSuperApp (a super app framework to digitally enable employees).
-
