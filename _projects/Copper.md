@@ -13,6 +13,6 @@ Copper was a scalable, open source email platform for government as well as non-
 
 The Copper project completed without much success, but has now been succeeed by the Silver project, our latest attempt at providing a super email and collaboration platform for governments (and others).
 
-The source code can be found here: <a href="https://github.com/LSFLK/Copper">https://github.com/LSFLK/Copper</a>.
+The source code can be found here: <a href="https://github.com/LSFLK/Copper" target="_blank" rel="noopener noreferrer">https://github.com/LSFLK/Copper</a>.
 
 <em>NOTE: Dates are approximate; if someone remembers the correct dates please send a PR!</em>

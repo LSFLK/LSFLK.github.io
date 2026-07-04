@@ -25,7 +25,7 @@ Code makes the world go around and our engineers are the ones who do the magic. 
                     {{ person.shortbio | markdownify }}
                     {% if person.moreinfo != nil %}
                         More: 
-                        <a href="{{ person.moreinfo }}"> {{ person.moreinfo}} </a>
+                        <a href="{{ person.moreinfo }}" target="_blank" rel="noopener noreferrer"> {{ person.moreinfo}} </a>
                     {% endif %}     
                 </p>
             </td>

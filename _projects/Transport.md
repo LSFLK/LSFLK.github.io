@@ -13,6 +13,6 @@ The National Passenger Service Platform (NPSP) project involved the operation of
 
 LSF engaged to complete the initial high level design of the platform and helped develop the timetable dashboards used in the terminals.
 
-The source code can be found here: <a href="https://github.com/NPSPLK">https://github.com/NPSPLK</a>.
+The source code can be found here: <a href="https://github.com/NPSPLK" target="_blank" rel="noopener noreferrer">https://github.com/NPSPLK</a>.
 
 <em>NOTE: Dates are approximate; if someone remembers the correct dates please send a PR!</em>

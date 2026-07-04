@@ -44,5 +44,5 @@ The platform is designed with security and compliance in mind. Every request is 
 
 OpenDIF is built to scale, with each service running independently and communicating through well-defined APIs. Services can be deployed together or separately, allowing organizations to start small and grow as needed. The optional audit service and observability stack can be added when required, without disrupting core functionality.
 
-Find more information about OpenDIF here: [GitHub Repository](https://github.com/OpenDIF)
+Find more information about OpenDIF here: [GitHub Repository](https://github.com/OpenDIF){:target="_blank" rel="noopener noreferrer"}
 

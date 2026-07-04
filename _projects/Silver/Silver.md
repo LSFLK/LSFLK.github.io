@@ -20,9 +20,9 @@ Instead of saving emails as files, Silver will use a database to store and manag
 
 Silver will also include a new Mail Client built for both mobile and desktop devices. This client will use JMAP as the main protocol to retrieve and sync emails in a modern and efficient way. With these improvements, Project Silver aims not just to rebuild email, but to reimagine communication — making it more efficient, organized, and ready for the future.
 
-Find more information about Silver Project here: [Github Repository](https://github.com/LSFLK/silver)
+Find more information about Silver Project here: [Github Repository](https://github.com/LSFLK/silver){:target="_blank" rel="noopener noreferrer"}
 
-Raven MDA: [Github Repository](https://github.com/LSFLK/raven)
+Raven MDA: [Github Repository](https://github.com/LSFLK/raven){:target="_blank" rel="noopener noreferrer"}
 
 <img src="{{ site.baseurl }}/{{page.image}}" alt="Silver Mail" width="200"/>
 

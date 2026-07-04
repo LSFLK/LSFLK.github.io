@@ -20,7 +20,7 @@ The LSF leadership team are the people who manage day to day operations of LSF.
                     {{ person.shortbio | markdownify }}
                     {% if person.moreinfo != nil %}
                         More: 
-                        <a href="{{ person.moreinfo }}"> {{ person.moreinfo}} </a>
+                        <a href="{{ person.moreinfo }}" target="_blank" rel="noopener noreferrer"> {{ person.moreinfo}} </a>
                     {% endif %}
                 </p>                
             </td>

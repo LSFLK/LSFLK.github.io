@@ -11,7 +11,7 @@ image: assets/images/projects/karsha.png
 
 “Karsha", Sanskrit for cash, involves big data integration and the visualization of complex financial data sets and analysis. Ongoing since 2011, Karsha is sponsored by the University of Maryland and has also received support from the US National Science Foundation and WSO2 as well as personal support from Prof. Louiqa Raschid.
 
-The source code can be found here: <a href="https://github.com/KARSHA-lsf">https://github.com/KARSHA-lsf</a>.
+The source code can be found here: <a href="https://github.com/KARSHA-lsf" target="_blank" rel="noopener noreferrer">https://github.com/KARSHA-lsf</a>.
 
 <img src="{{ site.baseurl }}/{{page.image}}" alt="Karsha" width="300"/>
 

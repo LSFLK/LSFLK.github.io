@@ -19,7 +19,7 @@ The Board of Directors are legally responsible for all aspects of the company.
                     Start Date: <b>{{ person.start_date }}</b><br>
                     {{ person.shortbio | markdownify }}
                     More: 
-                    <a href="{{ person.moreinfo }}"> {{ person.moreinfo}} </a>
+                    <a href="{{ person.moreinfo }}" target="_blank" rel="noopener noreferrer"> {{ person.moreinfo}} </a>
                 </p>                
             </td>
         </tr>
