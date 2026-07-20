@@ -89,4 +89,4 @@ India views this model as a third approach to digitalization. The first one is t
 
 With Sri Lanka's government again embarking on a strong DPI path, the focus of LSF for this phase will be to build open source technology and solutions that can help Sri Lanka (and other nations) establish strong digital public infrastructure.
 
-Our current DPI projects include Silver (a government-scale, secure, private email solution), OpenDIF (a platform for policy and consent-aware data sharing across data custodians, owners and consumers), and OpenSuperApp (a super app framework to digitally enable employees).
+Our current DPI projects include Silver (a government-scale, secure, private email solution), OpenNDX (a platform for policy and consent-aware data sharing across data custodians, owners and consumers), and OpenSuperApp (a super app framework to digitally enable employees).

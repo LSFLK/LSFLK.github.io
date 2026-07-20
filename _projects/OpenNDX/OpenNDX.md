@@ -3,13 +3,13 @@ layout: page
 title: OpenNDX
 start_date: 2025-07-01
 end_date:
-summary: Open Data Interchange Framework
-image: assets/images/projects/OpenNDX.jpg
+summary: Open Data Exchange Framework
+image: assets/images/projects/OpenNDX.png
 ---
 
 Start date: {{ page.start_date }}
 
-OpenNDX (Open Data Interchange Framework) is an open-source platform transforming how organizations exchange data. Instead of dealing with multiple disconnected data sources, OpenNDX acts as an intelligent intermediary that provides a single, unified point of access. Whether you're a large company, university, or government agency, this framework simplifies complex data requests by automatically coordinating between data providers, handling authorization, managing consent, and aggregating results into a single response.
+OpenNDX (Open National Data Exchange) is an open-source platform transforming how organizations exchange data. Instead of dealing with multiple disconnected data sources, OpenNDX acts as an intelligent intermediary that provides a single, unified point of access. Whether you're a large company, university, or government agency, this framework simplifies complex data requests by automatically coordinating between data providers, handling authorization, managing consent, and aggregating results into a single response.
 
 ## Core Architecture
 
