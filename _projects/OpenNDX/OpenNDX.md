@@ -2,7 +2,7 @@
 layout: page
 title: OpenNDX
 start_date: 2025-07-01
-end_date: 
+end_date:
 summary: Open Data Exchange Framework
 image: assets/images/projects/OpenNDX.png
 ---
@@ -20,17 +20,20 @@ OpenNDX is built as a microservices-based platform that orchestrates secure data
 The platform consists of several specialized services working together:
 
 **Backend Services (Go):**
+
 - **Orchestration Engine** - The central coordinator that receives GraphQL queries, validates authorization, manages consent workflows, and federates requests to multiple data providers
 - **Policy Decision Point** - Enforces attribute-based access control (ABAC) policies, determining which fields an application can access based on permissions and expiration rules
 - **Consent Engine** - Manages the complete consent lifecycle, allowing data owners to approve, reject, or revoke access to their data through a secure workflow
 - **Portal Backend** - Provides APIs for administrative and member portals, handling user management, schema management, and application configuration
 
 **Frontend Portals (React/TypeScript):**
+
 - **Admin Portal** - Administrative dashboard for managing the OpenNDX platform, users, schemas, and policies
 - **Member Portal** - Interface for data providers and consumers to manage their applications, data sources, and access configurations
 - **Consent Portal** - Citizen-facing interface where data owners can review and manage consent requests for their personal data
 
 **Optional Components:**
+
 - **Audit Service** - Comprehensive audit logging and event tracking for compliance and traceability (services function normally without it)
 - **Observability Stack** - Metrics collection and visualization using Prometheus and Grafana for monitoring system health and performance
 
@@ -44,5 +47,4 @@ The platform is designed with security and compliance in mind. Every request is 
 
 OpenNDX is built to scale, with each service running independently and communicating through well-defined APIs. Services can be deployed together or separately, allowing organizations to start small and grow as needed. The optional audit service and observability stack can be added when required, without disrupting core functionality.
 
-Find more information about OpenNDX here: [GitHub Repository](https://github.com/OpenNDX)
-
+Find more information about OpenNDX here: [GitHub Repository](https://github.com/OpenNDX){:target="\_blank" rel="noopener noreferrer"}

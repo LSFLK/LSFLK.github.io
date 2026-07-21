@@ -24,7 +24,7 @@ Volunteers are key to making it possible for us to build large scale software wi
                     {{ person.shortbio | markdownify }}
                     {% if person.moreinfo != nil %}
                         More: 
-                        <a href="{{ person.moreinfo }}"> {{ person.moreinfo}} </a>
+                        <a href="{{ person.moreinfo }}" target="_blank" rel="noopener noreferrer"> {{ person.moreinfo}} </a>
                     {% endif %}     
                 </p>
             </td>

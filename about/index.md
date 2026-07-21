@@ -44,7 +44,7 @@ The members are / were:
                     {{ person.shortbio | markdownify }}
                     {% if person.moreinfo != nil %}
                         More: 
-                        <a href="{{ person.moreinfo }}"> {{ person.moreinfo}} </a>
+                        <a href="{{ person.moreinfo }}" target="_blank" rel="noopener noreferrer"> {{ person.moreinfo}} </a>
                     {% endif %}
                 </p>                
             </td>
@@ -52,7 +52,7 @@ The members are / were:
     {% endfor %}
 </table>
 
-The Articles of Association of LSF are <a href="{{ site.baseurl }}/assets/docs/2003-Articles-Of-Association.pdf">here</a>.
+The Articles of Association of LSF are <a href="{{ site.baseurl }}/assets/docs/2003-Articles-Of-Association.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Phase 1 (2003 to 2013): Building open source technology around web services & Sahana {#phase1}
 This phase is what led to the creation of WSO2 on top of the Apache Axis2 project which LSF developed with a $100K grant from the Swedish International Development Agency (from 2004 to 2005). After WSO2 launched in 2005, LSF continued to do various projects in web services but work in that area slowed down a lot as Sahana took primary focus.
@@ -68,20 +68,20 @@ In this phase we attempted to support open source projects in Sri Lanka to becom
 
 Projects done in this phase include Ninithi.
 
-A <a href="https://drive.google.com/file/d/1N-sbHZlvvau1cYbdr4bZzKhxOWslgL8i/view?usp=sharing">mini-book was published</a> to celebrate our 15th anniversary in 2018.
+A <a href="https://drive.google.com/file/d/1N-sbHZlvvau1cYbdr4bZzKhxOWslgL8i/view?usp=sharing" target="_blank" rel="noopener noreferrer">mini-book was published</a> to celebrate our 15th anniversary in 2018.
 
 ## Phase 3 (2019-2024): Code for Sri Lanka - building government solutions  {#phase3}
 
 In this phase we focused on helping the government of Sri Lanka with various software solutions. While we had some good success, the efforts have not resulted in any permanent impact on Sri Lanka’s digital government platform or architecture.
 
 
-During this phase, we also collaborated with <a href="https://www.rhsmith.umd.edu/directory/louiqa-raschid">Prof. Louiqa Raschid</a> from the University of Maryland, a former director of LSF, on the Karsha project. Karsha was aimed at making financial data more structured, accessible, analyzable and available.
+During this phase, we also collaborated with <a href="https://www.rhsmith.umd.edu/directory/louiqa-raschid" target="_blank" rel="noopener noreferrer">Prof. Louiqa Raschid</a> from the University of Maryland, a former director of LSF, on the Karsha project. Karsha was aimed at making financial data more structured, accessible, analyzable and available.
 
 Projects done in this phase include elections, education, transport and Karsha.
 
 ## Phase 4 (2025 onwards): Building digital public infrastructure for Sri Lanka and the world  {#phase4}
 
-The term “Digital Public Infrastructure” (DPI) has been established primarily with India’s use of that term and their dramatic success is building their digital public infrastructure in a way that is very different from that of the US and China. From <em><a href="https://nbr.org/publication/the-indian-model-for-digitalization-a-blueprint-for-the-global-south/">The Indian Model for Digitalization</a></em>:
+The term “Digital Public Infrastructure” (DPI) has been established primarily with India’s use of that term and their dramatic success is building their digital public infrastructure in a way that is very different from that of the US and China. From <em><a href="https://nbr.org/publication/the-indian-model-for-digitalization-a-blueprint-for-the-global-south/" target="_blank" rel="noopener noreferrer">The Indian Model for Digitalization</a></em>:
 
 <blockquote>
 India views this model as a third approach to digitalization. The first one is the U.S. approach, which is led by the private sector, with government policies supporting the private sector to scale technologies, innovate, and take technologies to the masses—within not only the United States but the rest of the world. There is also the Chinese model, where everything is government-driven and government-controlled. The general approach is to develop a walled online world with restrictions on foreign companies’ participation in the digital economy. India’s approach is a mix of the two, where government guides or builds the “railroads.” In other words, the Indian government will build the foundational infrastructure, opening doors for the private sector to innovate on top of this foundation and then scale these technologies.
