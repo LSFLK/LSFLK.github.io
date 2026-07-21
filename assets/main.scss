@@ -607,6 +607,10 @@ blockquote {
 
 @media (max-width: 780px) {
   .header-shell {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 0.55rem;
     padding-top: 0.65rem;
     padding-bottom: 0.5rem;
@@ -619,22 +623,17 @@ blockquote {
 
   .menu-toggle {
     display: inline-flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
-    min-width: 42px;
-    min-height: 42px;
+    align-self: center;
+    margin-left: auto;
+    gap: 0;
+    padding: 0.95rem 0.6rem;
     position: relative;
   }
 
   .site-nav {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: transparent;
-    border: 0;
-    border-radius: 0;
+    display: contents;
   }
 
   .site-nav label[for="nav-trigger"] {
@@ -675,11 +674,12 @@ blockquote {
 
   .site-nav .trigger {
     display: none;
-    width: min(100%, 280px);
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 0.5rem;
     flex-direction: column;
     align-items: stretch;
     gap: 0.2rem;
-    margin-top: 0.45rem;
     padding: 0.7rem 0.85rem;
     border: 1px solid var(--site-border);
     border-radius: 12px;
@@ -694,6 +694,8 @@ blockquote {
   .site-nav .page-link {
     display: block;
     width: 100%;
+    text-align: left;
+    padding: 0.5rem 0.35rem;
   }
 
   .page-content {
