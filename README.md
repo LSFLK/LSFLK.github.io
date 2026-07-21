@@ -9,3 +9,13 @@ To run locally do the following:
 1. git clone the repo
 2. jekyll serve
 </pre>
+
+### Running with Docker Compose
+
+If you have Docker installed, you can start the local development server with LiveReload using:
+
+```bash
+docker compose up --build
+```
+
+Once running, visit [http://localhost:4000](http://localhost:4000) in your browser. Any changes you make to the source files will automatically rebuild the site and reload the page.
