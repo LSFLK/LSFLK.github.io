@@ -5,7 +5,7 @@ start_date: 2025-05-01
 end_date:
 status: ACTIVE
 summary: Reinventing Email and Digital Communication
-image: assets/images/projects/Silver.jpg
+image: assets/images/projects/OpenGovMail.png
 ---
 
 Start date: {{ page.start_date }}

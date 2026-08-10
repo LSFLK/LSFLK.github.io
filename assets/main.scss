@@ -360,6 +360,14 @@ p {
 .page-projects .post-content table img {
   width: 100%;
   max-width: none;
+  border: 0;
+  background: transparent;
+}
+
+.page-projects .post-content table tr {
+  gap: 3rem;
+  border: 0;
+  background: transparent;
 }
 
 .page-shell[class*="page-team-"] .post-content table img {
@@ -378,8 +386,8 @@ p {
   width: min(100%, 420px);
   max-width: none;
   margin-top: 1rem;
-  border: 1px solid var(--site-border);
-  background: var(--site-surface-muted);
+  border: 0;
+  background: transparent;
 }
 
 /* Team index */
